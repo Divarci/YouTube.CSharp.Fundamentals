@@ -1,9 +1,11 @@
-﻿// Byte
+﻿//VALUE TYPE DATA TYPES
+
+// Byte
 // Short
 // Int
 // Long
 // Enum
-
+/*
 // Byte => 8 bit (1 byte)
 byte numberOne = 5;
 byte maxByte = byte.MaxValue;
@@ -33,6 +35,7 @@ long maxLong = long.MaxValue;
 long minLong = long.MinValue;
 
 Console.WriteLine($"Max Long is {maxLong}, Min Long is {minLong}, Curren Long Value is {numberFour}");
+*/
 
 //float
 //double
@@ -40,6 +43,7 @@ Console.WriteLine($"Max Long is {maxLong}, Min Long is {minLong}, Curren Long Va
 //char
 //bool
 
+/*
 //Float => 32 bit (4 byte)
 
 float numberFive = 5.12345678901234567890123456789f; // we allowed to use 6 digit after dot
@@ -72,6 +76,51 @@ bool conditionOfBus = false;
 
 bool isBiggerThanHundred = 200 > 100;
 Console.WriteLine($"Is 200 bigger than 100 : {isBiggerThanHundred}"); //we use bools mostly with if blocks
+
+*/
+
+//REFERANCE TYPE DATA TYPES
+
+//object
+//var 
+//string
+
+//object => holds the all data types. We can consider it the ancestor of all data types
+
+object variableOne = 5;
+object variableTwo = false;
+object variableThree = 5.25f;
+object variableFour = 'A';
+object variableFive = "ByteVerse";
+
+bool convertedVariableTwo = (bool)variableTwo;
+
+Console.WriteLine(convertedVariableTwo);
+
+
+//var => detects the type of assigned data and uses it as a data type
+
+var whatAmI = 5;
+var whatAmITwo = 'B';
+var whatAmIThree = 5.36m;
+
+//string => it holds texts. more technically it holds char arrays
+
+string channelName = "ByteVerse";
+string city = "London";
+
+Console.WriteLine($"My channel name is {channelName}.\nI am living in {city}");
+
+string screenMessage = @$"
+
+My channel name is {channelName}.
+I am living in {city}
+I am able to use my string as a text editor now.
+";
+
+
+Console.WriteLine(screenMessage);
+
 
 
 
