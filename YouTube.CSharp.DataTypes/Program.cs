@@ -33,3 +33,47 @@ long maxLong = long.MaxValue;
 long minLong = long.MinValue;
 
 Console.WriteLine($"Max Long is {maxLong}, Min Long is {minLong}, Curren Long Value is {numberFour}");
+
+//float
+//double
+//decimal if we would like to have more precise in our calculations we should use decimal
+//char
+//bool
+
+//Float => 32 bit (4 byte)
+
+float numberFive = 5.12345678901234567890123456789f; // we allowed to use 6 digit after dot
+Console.WriteLine($"Float is allowed to use like this : {numberFive}");
+
+//Double => 64 bit (8 byte)
+
+double numberSix = 15.12345678901234567890123456789; // we allowed to use 15 digit after dot
+Console.WriteLine($"Double is allowed to use like this : {numberSix}");
+
+//Decimal => 128 bit (16 byte)
+
+decimal numberSeven = 15.12345678901234567890123456789m; // we allowed to use 27 digit after dot
+Console.WriteLine($"Decimal is allowed to use like this : {numberSeven}");
+
+//char => 16 bit (2 byte)
+
+char character = 'B';
+
+int convertedChar = (int)character; 
+
+Console.WriteLine($"Current char value is : {character}, and also current int value of Character is {convertedChar}");
+
+string name = "Byteverse"; // 9 char character have been used to make a name string.
+
+//bool => 8 bit (1 byte)
+
+bool conditionOfCar = true; 
+bool conditionOfBus = false;
+
+bool isBiggerThanHundred = 200 > 100;
+Console.WriteLine($"Is 200 bigger than 100 : {isBiggerThanHundred}"); //we use bools mostly with if blocks
+
+
+
+
+
