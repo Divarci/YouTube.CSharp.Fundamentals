@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.TypeConversi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.CalculationsAndOperators", "YouTube.CSharp.CalculationsAndOperators\YouTube.CSharp.CalculationsAndOperators.csproj", "{D0BDD840-5FEA-48DE-9FA4-ED5A70F793E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.IfElseAndSwitchBlocks", "YouTube.CSharp.IfElseAndSwitchBlocks\YouTube.CSharp.IfElseAndSwitchBlocks.csproj", "{793A96CD-88E1-48F3-87B8-E55973EE06CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D0BDD840-5FEA-48DE-9FA4-ED5A70F793E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0BDD840-5FEA-48DE-9FA4-ED5A70F793E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0BDD840-5FEA-48DE-9FA4-ED5A70F793E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793A96CD-88E1-48F3-87B8-E55973EE06CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793A96CD-88E1-48F3-87B8-E55973EE06CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793A96CD-88E1-48F3-87B8-E55973EE06CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793A96CD-88E1-48F3-87B8-E55973EE06CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
