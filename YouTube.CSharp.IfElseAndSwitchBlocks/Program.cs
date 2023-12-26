@@ -59,7 +59,7 @@ Console.ReadLine();
 //Switch Case
 
 
-/*
+
 string city = "Berlin";
 
 switch (city)
@@ -87,4 +87,3 @@ string result = city switch
 };
 
 Console.WriteLine(result);
-*/
