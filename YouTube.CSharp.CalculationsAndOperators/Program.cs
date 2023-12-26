@@ -1,7 +1,8 @@
 ﻿// CALCULATIONS AND OPERATORS
 
-//Calculations => + , - , / , * , %
 
+//Calculations => + , - , / , * , %
+/*
 byte byteOne = 5;
 byte byteTwo = 10;
 
@@ -75,6 +76,59 @@ string newTextTwo = "Book";
 string sentence = "I bought " + newText+ " "+ newTextTwo+"s " + "last week";
 
 Console.WriteLine(sentence);
+
+*/
+
+
+//Operators
+
+bool conditionOne = 500 == 400;
+Console.WriteLine(conditionOne);
+
+bool conditionTwo = 500 != 400;
+Console.WriteLine(conditionTwo);
+
+bool conditionThree = "London" != "Manchester";
+Console.WriteLine(conditionThree);
+
+bool conditionFour = "London" != "London";
+Console.WriteLine(conditionFour);
+
+bool conditionFive = 500 > 400;
+Console.WriteLine(conditionFive);
+
+bool conditionSix = 500 < 400;
+Console.WriteLine(conditionSix);
+
+bool conditionSeven = 500 <= 400;
+Console.WriteLine(conditionSeven);
+
+bool conditionEight = 500 >= 500;
+Console.WriteLine(conditionEight);
+
+bool conditionNine = 500 <= 400 && "Antalya" != "London";
+Console.WriteLine(conditionNine);
+
+bool conditionTen = 500 <= 400 || "Antalya" != "London";
+Console.WriteLine(conditionTen);
+
+//--
+
+int initialNumber = 25;
+Console.WriteLine(initialNumber);
+
+initialNumber++;
+Console.WriteLine(initialNumber); //26
+
+initialNumber++;
+Console.WriteLine(initialNumber); //27
+
+initialNumber--;
+Console.WriteLine(initialNumber); //26
+
+
+
+
 
 
 
