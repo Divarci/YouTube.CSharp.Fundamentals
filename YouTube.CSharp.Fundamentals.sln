@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.ApplicationD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.Methods", "YouTube.CSharp.Methods\YouTube.CSharp.Methods.csproj", "{106F7D51-C9E5-412A-9171-FAEF40FF148F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.Arrays", "YouTube.CSharp.Arrays\YouTube.CSharp.Arrays.csproj", "{EECF45FF-E34D-4B51-AD4B-198E310719C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.Arrays", "YouTube.CSharp.Arrays\YouTube.CSharp.Arrays.csproj", "{EECF45FF-E34D-4B51-AD4B-198E310719C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.Loops", "YouTube.CSharp.Loops\YouTube.CSharp.Loops.csproj", "{AB091D51-9202-4E4D-9BB9-2F2444CAE39F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.Loops", "YouTube.CSharp.Loops\YouTube.CSharp.Loops.csproj", "{AB091D51-9202-4E4D-9BB9-2F2444CAE39F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.StringMethods", "YouTube.CSharp.StringMethods\YouTube.CSharp.StringMethods.csproj", "{5728E3D2-687D-4AC1-A8D4-EE22A513AC3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.StringMethods", "YouTube.CSharp.StringMethods\YouTube.CSharp.StringMethods.csproj", "{5728E3D2-687D-4AC1-A8D4-EE22A513AC3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.Class", "YouTube.CSharp.Class\YouTube.CSharp.Class.csproj", "{F5C1809B-C3BD-42E5-957F-9A2AED39358E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{5728E3D2-687D-4AC1-A8D4-EE22A513AC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5728E3D2-687D-4AC1-A8D4-EE22A513AC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5728E3D2-687D-4AC1-A8D4-EE22A513AC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C1809B-C3BD-42E5-957F-9A2AED39358E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C1809B-C3BD-42E5-957F-9A2AED39358E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C1809B-C3BD-42E5-957F-9A2AED39358E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C1809B-C3BD-42E5-957F-9A2AED39358E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
