@@ -6,4 +6,9 @@ you can use this comment type for more bigger explanations or codes
 
 Console.WriteLine("Hello, World!");
 
+//class NewClass
+//{
 
+//}
+
+//Console.WriteLine("test");
