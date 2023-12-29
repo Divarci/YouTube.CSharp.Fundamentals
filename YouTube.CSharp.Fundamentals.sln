@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.StringMethod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.Class", "YouTube.CSharp.Class\YouTube.CSharp.Class.csproj", "{F5C1809B-C3BD-42E5-957F-9A2AED39358E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.Constructors", "YouTube.CSharp.Constructors\YouTube.CSharp.Constructors.csproj", "{F5085522-AB36-42C4-A45B-58F8E804F8B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.Constructors", "YouTube.CSharp.Constructors\YouTube.CSharp.Constructors.csproj", "{F5085522-AB36-42C4-A45B-58F8E804F8B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.StaticClassMethodProperty", "YouTube.CSharp.StaticClassMethodProperty\YouTube.CSharp.StaticClassMethodProperty.csproj", "{FB26546F-A238-478E-8094-A033FF0F6A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.StaticClassMethodProperty", "YouTube.CSharp.StaticClassMethodProperty\YouTube.CSharp.StaticClassMethodProperty.csproj", "{FB26546F-A238-478E-8094-A033FF0F6A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.AccessModifiers", "YouTube.CSharp.AccessModifiers\YouTube.CSharp.AccessModifiers.csproj", "{A61984A3-BFB1-40D8-AEDE-EF79A0F08E09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{FB26546F-A238-478E-8094-A033FF0F6A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB26546F-A238-478E-8094-A033FF0F6A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB26546F-A238-478E-8094-A033FF0F6A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61984A3-BFB1-40D8-AEDE-EF79A0F08E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61984A3-BFB1-40D8-AEDE-EF79A0F08E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61984A3-BFB1-40D8-AEDE-EF79A0F08E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61984A3-BFB1-40D8-AEDE-EF79A0F08E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
