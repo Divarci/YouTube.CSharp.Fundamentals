@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.Polymorphism
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.AbstractClass", "YouTube.CSharp.AbstractClass\YouTube.CSharp.AbstractClass.csproj", "{726DE578-6D59-4333-A156-8C6BC49D74FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.Interfaces", "YouTube.CSharp.Interfaces\YouTube.CSharp.Interfaces.csproj", "{B25683B3-A9F2-442F-8799-24E584AB81F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{726DE578-6D59-4333-A156-8C6BC49D74FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{726DE578-6D59-4333-A156-8C6BC49D74FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{726DE578-6D59-4333-A156-8C6BC49D74FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25683B3-A9F2-442F-8799-24E584AB81F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25683B3-A9F2-442F-8799-24E584AB81F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25683B3-A9F2-442F-8799-24E584AB81F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25683B3-A9F2-442F-8799-24E584AB81F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
