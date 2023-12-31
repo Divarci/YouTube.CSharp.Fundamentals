@@ -37,7 +37,7 @@ class Product
     }
 
 }
-*/
+
 
 //What we can do with a type
 
@@ -125,3 +125,53 @@ namespace test
 
 }
 
+*/
+
+
+// 2- IsAssignableFrom()
+
+
+using System.Collections;
+using System.Reflection;
+using System.Text.Json;
+
+var assembly = Assembly.GetExecutingAssembly();
+var types = assembly.GetTypes();
+
+var classOnly = types.Where(type => type.IsClass && !type.IsInterface && typeof(IService).IsAssignableFrom(type));
+
+
+
+foreach (var type in classOnly)
+{
+    IList list = (IList)Activator.CreateInstance(typeof(List<>).MakeGenericType(type))!;
+    for (int i = 0; i < 6; i++)
+    {
+        var entity =(IService) Activator.CreateInstance(type)!;
+        entity.Id = i;
+        list.Add(entity);
+    }
+
+    Console.WriteLine(type.Name);
+    Console.WriteLine(JsonSerializer.Serialize(list));
+    Console.WriteLine("*********");
+}
+
+
+
+interface IService 
+{
+    public int Id { get; set; }
+}
+
+class Product : IService
+{
+    public int Id { get; set; }
+
+}
+
+class Client : IService
+{
+    public int Id { get; set; }
+
+}
