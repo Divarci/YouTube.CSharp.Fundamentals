@@ -129,7 +129,7 @@ namespace test
 
 
 // 2- IsAssignableFrom()
-
+/*
 
 using System.Collections;
 using System.Reflection;
@@ -175,3 +175,13 @@ class Client : IService
     public int Id { get; set; }
 
 }
+
+*/
+
+
+// 3- Generic Example
+
+using YouTube.CSharp.Reflection;
+
+new FileGenerator<Product>(ProductSeed.products,"Product").GenerateFile();
+new FileGenerator<Client>(ClientSeed.clients, "Client").GenerateFile();
