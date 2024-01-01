@@ -3,8 +3,14 @@
     public class Client
     {
         public int Id { get; set; }
+
+        [CustomFile(Header = "Company Name")]
         public string CompanyName { get; set; }
+
+        [CustomFile(Header = "Contact Name")]
         public string ContactName { get; set; }
+
+        [CustomFile(Header = "Phone Number")]
         public string PhoneNumber { get; set; }
     }
 

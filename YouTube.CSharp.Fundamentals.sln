@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.Collections"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.ExceptionHandle", "YouTube.CSharp.ExceptionHandle\YouTube.CSharp.ExceptionHandle.csproj", "{ACD187C6-38BB-4039-93FD-96D621F14152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.CSharp.Reflection", "YouTube.CSharp.Reflection\YouTube.CSharp.Reflection.csproj", "{243C0430-B0A1-45FF-897F-FFA951C81AB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTube.CSharp.Reflection", "YouTube.CSharp.Reflection\YouTube.CSharp.Reflection.csproj", "{243C0430-B0A1-45FF-897F-FFA951C81AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.Charp.Attributes", "YouTube.Charp.Attributes\YouTube.Charp.Attributes.csproj", "{2C049D33-DC40-4127-B731-CDC23A95D95A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{243C0430-B0A1-45FF-897F-FFA951C81AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{243C0430-B0A1-45FF-897F-FFA951C81AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{243C0430-B0A1-45FF-897F-FFA951C81AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C049D33-DC40-4127-B731-CDC23A95D95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C049D33-DC40-4127-B731-CDC23A95D95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C049D33-DC40-4127-B731-CDC23A95D95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C049D33-DC40-4127-B731-CDC23A95D95A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

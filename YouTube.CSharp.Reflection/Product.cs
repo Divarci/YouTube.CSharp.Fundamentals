@@ -4,6 +4,8 @@
     {
         public int Id { get; set; }
         public string Title { get; set; }
+
+        [CustomFile(Format ="N2",Currency ="£")]
         public decimal Price { get; set; }
     }
 

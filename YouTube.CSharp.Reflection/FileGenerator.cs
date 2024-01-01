@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Reflection;
+using System.Text;
 
 namespace YouTube.CSharp.Reflection
 {
@@ -37,7 +38,18 @@ namespace YouTube.CSharp.Reflection
             var builder = new StringBuilder();
             foreach (var property in properties)
             {
-                builder.Append(property.Name).Append(",");
+                var attr = property.GetCustomAttribute<CustomFileAttribute>();
+                string stringItem;
+                if (attr != null)
+                {
+                    stringItem = attr.Header ?? property.Name;
+                }
+                else
+                {
+                    stringItem = property.Name;
+                }
+
+                builder.Append(stringItem).Append(",");
             }
             return builder.ToString()[..^1];
         }
@@ -49,7 +61,19 @@ namespace YouTube.CSharp.Reflection
 
             foreach (var property in properties)
             {
-                build.Append(property.GetValue(item)).Append(",");
+                var attr = property.GetCustomAttribute<CustomFileAttribute>();
+                string stringItem;
+
+                if (attr != null)
+                {
+                    stringItem = String.Format($"{{0:{attr.Format}}}{attr.Currency}", property.GetValue(item));
+                }
+                else
+                {
+                    stringItem = property.GetValue(item).ToString();
+                }                
+
+                build.Append(stringItem).Append(",");
             }
             
             return build.ToString()[..^1];
