@@ -61,7 +61,3 @@ Welcome to the C# Lessons repository, where you can learn C# programming from ba
 ## Getting Started
 
 Explore each lesson module to learn more about the topics. You can also clone the repository and run the code locally to follow along with the tutorials.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). For more information, see the LICENSE file.
